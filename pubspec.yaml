@@ -1,0 +1,64 @@
+name: ambica
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #State Management
+  get: ^4.2.1+2
+  get_storage: ^2.0.3
+
+  #utilities
+  pin_code_fields: ^7.3.0
+  flutter_svg: ^0.22.0
+  flutter_switch: ^0.3.2
+  flutter_quill: ^1.1.0
+  html_editor_enhanced: ^2.3.0
+
+  # DIO
+  dio: ^4.0.0
+  dio_http_cache: ^0.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+
+  fonts:
+    - family: openSans
+      fonts:
+        - asset: fonts/OpenSans/OpenSans-Regular.ttf
+          weight: 400
+        - asset: fonts/OpenSans/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: fonts/OpenSans/OpenSans-Bold.ttf
+          weight: 700
+
+    - family: raleway
+      fonts:
+        - asset: fonts/raleway/Raleway-Regular.ttf
+          weight: 400
+        - asset: fonts/raleway/Raleway-Medium.ttf
+          weight: 500
+        - asset: fonts/raleway/Raleway-SemiBold.ttf
+          weight: 600
+        - asset: fonts/raleway/Raleway-Bold.ttf
+          weight: 700
+#        - asset: assets/fonts/sofia_pro_semi_bold_italic.ttf
+#          weight: 600
+#          style: italic
+

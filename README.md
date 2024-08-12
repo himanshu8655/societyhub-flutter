@@ -1,4 +1,4 @@
-# ambica
+# Society Hub
 
 A new Flutter application.
 
